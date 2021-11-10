@@ -1,0 +1,26 @@
+:root {
+    /* color var */
+    --main-bg-color  : #ffffff;
+    --main-text-color: #1c1c1c;
+
+    --button-color    : #21BDEE;
+    --button-color-mod: #A3CD00;
+
+    --sale-bg     : #FFD91A;
+    --sale-bg-card: #D6F76F;
+
+    --card-color    : #E7F9FF;
+    --card-color-mod: #F5FDD6;
+
+    --card-color-header    : #CAF0FC;
+    --card-color-header-mod: #E3F3A4;
+
+    --card-text-color    : #211B16;
+    --card-text-color-sub: #98A2A6;
+
+    --price-color: #0050AF;
+
+    /* config var */
+    --border-radius    : 1rem;
+    --border-radius-btn: 0.5rem;
+}

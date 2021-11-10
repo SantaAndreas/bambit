@@ -1,0 +1,33 @@
+.body {
+    width          : 100%;
+    min-height     : 100vh;
+    display        : flex;
+    justify-content: center;
+}
+
+.wrapper {
+    padding   : 0 1rem;
+    width     : 100%;
+    min-height: 100%;
+    max-width : 1200px;
+}
+
+.modal-hide {
+    display: none;
+
+    width     : 100%;
+    min-height: 100vh;
+
+    z-index : 5;
+    position: absolute;
+    left    : 0;
+    right   : 0;
+    top     : 0;
+    bottom  : 0;
+
+    backdrop-filter: blur(10px);
+}
+
+.modal-hide_on {
+    display: flex;
+}

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles/styles.css">
+    <title>Bambit</title>
+</head>
+
+<body class="body">
+    <div class="modal-hide"></div>
+    <div class="wrapper">
+        <!-- header -->
+        <header class="header">
+            <h1 class="header__title">Тестовое задание для Bambit</h1>
+            <button class="header__button" id="buttonOpenTaskOne" data-btn-number='1'>Открыть задание 1 и 3</button>
+            <button class="header__button" id="buttonOpenTaskTwo" data-btn-number='2'>Открыть задание 2</button>
+        </header>
+        <!-- main -->
+        <main class="main">
+            <section class="modal modal_none" data-modal-number='1'>
+                <header class="modal__header">
+                    <h2 class="modal__title">
+                        Задиния №1 и №3 "Создание модального окна и вертска блоков" решил объеденить в одном.
+                    </h2>
+                    <button class="modal__close" id='btnCloseOne'>&#215;</button>
+                </header>
+                <div class="modal__content">
+                    <div class="content-optionals">
+                        <div class="content-optionals__block">
+                            <span class="content-optionals__title">Цена за месяц при покупке на</span>
+                            <select class="content-optionals__select" name="select-trafic" id="select">
+                                <option value="1" class="content-optionals__option">на 1 месяц</option>
+                                <option value="3" class="content-optionals__option">на 3 месяца</option>
+                                <option value="12" class="content-optionals__option" data-before="sda">на год
+                                </option>
+                                <option value="24" class="content-optionals__option">на два года</option>
+                            </select>
+                        </div>
+                        <div class="content-optionals__block">
+                            <span class="content-optionals__title">Продлить тарифы купленные до 1 августа 2021</span>
+                            <a href="#" class="content-optionals__link">Архив тарифов</a>
+                        </div>
+                    </div>
+                    <!-- here render cards -->
+                    <div class="content-card"></div>
+                </div>
+            </section>
+            <section class="modal modal_none" data-modal-number='2'>
+                <header class="modal__header">
+                    <h2 class="modal__title">
+                        Задиния 2.
+                    </h2>
+                    <button class="modal__close" id='btnCloseTwo'>&#215;</button>
+                </header>
+                <div class="modal__content"></div>
+            </section>
+        </main>
+    </div>
+    <script src="./js/app.js" type="module"></script>
+</body>
+
+</html>
